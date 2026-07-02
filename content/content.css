@@ -1,0 +1,20 @@
+/* content.css - Styling for Speechify Highlight API and Injected Styles */
+
+/* 1. CSS Custom Highlight Styles */
+/* Styles for the currently reading sentence */
+::highlight(speechify-sentence) {
+  background-color: rgba(79, 134, 247, 0.22) !important;
+  color: inherit !important;
+}
+
+/* Styles for the currently reading word */
+::highlight(speechify-word) {
+  background-color: rgba(255, 215, 0, 0.75) !important;
+  color: #000000 !important;
+}
+
+/* 2. Dragging helper classes to apply during drag operations to prevent text selection */
+.speechify-no-select {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
