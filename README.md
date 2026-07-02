@@ -67,4 +67,4 @@ Since this extension is in development, you can load it locally into Google Chro
 
 ## 📜 License
 
-This project is licensed under the terms of the MIT License. See the LICENSE file for more details.
+This project is licensed under the terms of the Apache 2 License. See the LICENSE file for more details.
